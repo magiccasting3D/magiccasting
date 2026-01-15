@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "scripts": {
-    "build": "tailwindcss -i ./css/src/input.css -o ./css/main.css --watch",
-    "dev": "live-server"
+ "scripts": {
+    "dev": "live-server",
+    "watch": "tailwindcss -i ./css/src/input.css -o ./css/main.css --watch",
+    "build": "tailwindcss -i ./css/src/input.css -o ./css/main.css --minify"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.7",
