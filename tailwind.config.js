@@ -41,34 +41,36 @@ module.exports = {
         'serif': ['Crimson Text', 'Georgia', 'serif'],
         'sans': ['DM Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
       },
-      spacing: {
-        '18': '4.5rem',
-        '88': '22rem',
-        '100': '25rem',
-        '104': '26rem',
-      },
-      backdropBlur: {
-        'xs': '2px',
-      },
+      // ... (your existing spacing settings)
       animation: {
         'float': 'float 3s ease-in-out infinite',
+        // ADDED THESE ANIMATIONS:
+        'fadeIn': 'fadeIn 1s ease-out forwards',
+        'fadeInUp': 'fadeInUp 0.8s ease-out forwards',
       },
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
+        },
+        // ADDED THESE KEYFRAMES:
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         }
       }
     },
   },
   plugins: [
-  require('@tailwindcss/forms'),
-  require('tailwindcss-animate'),
-  require('@tailwindcss/typography'),
-  require('@tailwindcss/aspect-ratio'),
-  // line-clamp is now included in Tailwind CSS v3.3+ by default, but if you want to be safe:
-  // require('@tailwindcss/line-clamp'), 
-  require('tailwindcss-elevation'), 
-  require('tailwindcss-fluid-type'),
-],
+    require('@tailwindcss/forms'),
+    require('tailwindcss-animate'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+    require('tailwindcss-elevation'), 
+    require('tailwindcss-fluid-type'),
+  ],
 }
