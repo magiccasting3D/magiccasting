@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Your Custom Font Imports should be here if not linked in HTML */
-/* But you linked them in HTML, so that is fine. */
+@layer components {
+  /* This defines the .glass-card class used in your HTML */
+  .glass-card {
+    @apply bg-warm-stone-900/40 backdrop-blur-md border border-cream-100/10 shadow-xl;
+  }
+  
+  /* Optional: Add a hover effect if you want cards to glow slightly */
+  .glass-card:hover {
+    @apply bg-warm-stone-900/60 border-terracotta-500/30 transition-all duration-300;
+  }
+}
 
 @layer base {
   html {
