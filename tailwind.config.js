@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html"
-    
-  ],
+  "./index.html", //
+  "./pages/**/*.html"
+],
   theme: {
     screens: {
       'xs': '400px',     // New custom breakpoint for 400px
