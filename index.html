@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0WN2NK8699"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0WN2NK8699');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>MagicCasting | 3D Hand & Foot Impressions in Shivamogga</title>
-    <meta property="og:title" content="Magic Casting - 3D Impressions in Shivamogga">
-<meta property="og:description" content="Preserve your memories with professional 3D hand and foot castings. Baby, Couple & Family keepsakes.">
-<meta property="og:image" content="https://magiccasting3d.github.io/magiccasting/assets/images/HeaderLogo.png">
-<meta property="og:url" content="https://magiccasting3d.github.io/magiccasting/">
-<meta property="og:type" content="website">
     
     <meta name="description" content="Preserve your memories with professional 3D hand and foot castings in Shivamogga & Bhadravati. We specialize in baby impressions, couple hands, and family keepsakes.">
     
@@ -33,27 +19,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Magic Casting",
-  "image": "https://magiccasting3d.github.io/magiccasting/assets/images/HeaderLogo.png",
-  "telephone": "+91-8310995337",
-  "email": "magic.casting3d@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "80ft main road, near KSRTC Bus depo, RML Nagar",
-    "addressLocality": "Shivamogga",
-    "addressRegion": "Karnataka",
-    "postalCode": "577205",
-    "addressCountry": "IN"
-  },
-  "url": "https://magiccasting3d.github.io/magiccasting/",
-  "description": "Professional 3D hand and foot casting studio in Shivamogga specializing in baby impressions and family keepsakes."
-}
-</script>
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Magic Casting",
+      "image": "https://magiccasting.in/assets/images/HeaderLogo.png",
+      "telephone": "+91-8310995337",
+      "email": "magic.casting3d@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shivamogga",
+        "addressLocality": "Shivamogga",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "url": "https://magiccasting.in",
+      "description": "Professional 3D hand and foot casting studio in Shivamogga."
+    }
+    </script>
 </head>
-<body class="bg-warm-stone-950 text-cream-100 font-sans antialiased selection:bg-terracotta-500/30 selection:text-terracotta-100">
+<body class="text-cream-100 font-sans antialiased selection:bg-terracotta-500/30 selection:text-terracotta-100" style="background-color: #f5f1ed;">
     
     <!-- Paper texture overlay -->
     <div class="fixed inset-0 bg-paper-texture pointer-events-none z-0 opacity-30"></div>
@@ -93,7 +78,7 @@
             <!-- Status Badge -->
 
             <!-- Hero Headline -->
-            <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl tracking-tight text-cream-50 mb-6 md:mb-8 leading-[1.05] drop-shadow-2xl opacity-0 animate-[fadeIn_1s_ease-out_forwards]">
+            <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl tracking-tight text-black mb-6 md:mb-8 leading-[1.05] drop-shadow-2xl opacity-0 animate-[fadeIn_1s_ease-out_forwards]">
                 Preserve The Memory<br>
                 <span class="relative inline-block">
                     <span class="relative z-10 text-2xl md:text-4xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-b from-terracotta-200 via-terracotta-400 to-terracotta-600">
@@ -104,13 +89,58 @@
             </h1>
 
             <!-- Subheadline -->
-            <p class="text-xs md:text-lg text-warm-stone-400 max-w-2xl mx-auto mb-12 font-light leading-relaxed opacity-0 animate-[fadeIn_1s_ease-out_0.3s_forwards] px-4"> Professional 3D hand and foot casting studio. Create beautiful keepsakes of baby's tiny hands, couple's love, or family bonds that last forever.<br><span class="font-semibold text-cream-300">Transform your intangible memories into a tangible legacy</span> 
+            <p class="text-xs md:text-lg text-black max-w-2xl mx-auto mb-12 font-light leading-relaxed opacity-0 animate-[fadeIn_1s_ease-out_0.3s_forwards] px-4"> Professional 3D hand and foot casting studio. Create beautiful keepsakes of baby's tiny hands, couple's love, or family bonds that last forever.<br><span class="font-semibold text-black">Transform your intangible memories into a tangible legacy</span> 
             </p>
 
             <!-- Hero Images Floating Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-2 w-full mt-8">
+            <div id="heroMobileSlider" class="md:hidden relative w-full mt-8">
+                <div class="overflow-hidden rounded-2xl">
+                    <div id="heroMobileTrack" class="flex transition-transform duration-700 ease-out">
+                        <div class="w-full shrink-0">
+                            <div class="group relative h-64 rounded-2xl overflow-hidden glass-card transition-all duration-700">
+                                <img src="assets/images/Baby2.jpg" alt="Delicate white plaster cast of baby's tiny hand in mother's palm, showing intricate fingerprint details and soft curves" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-70 transition-all duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-warm-stone-950 via-warm-stone-950/30 to-transparent"></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <div class="w-10 h-[1px] bg-terracotta-500 mb-4"></div>
+                                    <h3 class="font-serif text-lg text-cream-50 mb-1">Baby Castings</h3>
+                                    <p class="text-xs text-cream-300 font-light tracking-wide uppercase">Hand and Feet</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full shrink-0">
+                            <div class="group relative h-64 rounded-2xl overflow-hidden glass-card transition-all duration-700">
+                                <img src="assets/images/CoupleHand.jpg" alt="Interlocked hands of couple cast in bronze-effect resin on elegant wooden display stand, showing romantic connection and anniversary celebration" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-70 transition-all duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-warm-stone-950 via-warm-stone-950/30 to-transparent"></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <div class="w-10 h-[1px] bg-terracotta-500 mb-4"></div>
+                                    <h3 class="font-serif text-lg text-cream-50 mb-1">Couple Hands</h3>
+                                    <p class="text-xs text-cream-300 font-light tracking-wide uppercase">Weddings & Anniversaries</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full shrink-0">
+                            <div class="group relative h-64 rounded-2xl overflow-hidden glass-card transition-all duration-700">
+                                <img src="assets/images/21_21 Family.jpg" alt="Three generations of family handprints cast together in white plaster frame - grandparent, parent, and child hands showing size progression" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-70 transition-all duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-warm-stone-950 via-warm-stone-950/30 to-transparent"></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <div class="w-10 h-[1px] bg-terracotta-500 mb-4"></div>
+                                    <h3 class="font-serif text-lg text-cream-50 mb-1">Family Sets</h3>
+                                    <p class="text-xs text-cream-300 font-light tracking-wide uppercase">Generational Keepsakes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="heroMobileDots" class="flex items-center justify-center gap-3 mt-5">
+                    <button type="button" class="h-2.5 w-8 rounded-full bg-terracotta-500 transition-all duration-300" aria-label="Show hero slide 1"></button>
+                    <button type="button" class="h-2.5 w-2.5 rounded-full bg-cream-100/20 transition-all duration-300" aria-label="Show hero slide 2"></button>
+                    <button type="button" class="h-2.5 w-2.5 rounded-full bg-cream-100/20 transition-all duration-300" aria-label="Show hero slide 3"></button>
+                </div>
+            </div>
+
+            <div class="hidden md:grid md:grid-cols-3 gap-2 w-full mt-8">
                 <!-- Card 1: Baby Hand Cast -->
-                <div class="group relative h-64 md:h-80 rounded-2xl overflow-hidden glass-card transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] opacity-0 animate-[fadeInUp_0.8s_ease-out_0.5s_forwards]">
+                <div class="group relative h-80 rounded-2xl overflow-hidden glass-card transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] opacity-0 animate-[fadeInUp_0.8s_ease-out_0.5s_forwards]">
                     <img src="assets/images/Baby2.jpg" alt="Delicate white plaster cast of baby's tiny hand in mother's palm, showing intricate fingerprint details and soft curves" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-warm-stone-950 via-warm-stone-950/30 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 right-6">
@@ -121,7 +151,7 @@
                 </div>
 
                 <!-- Card 2: Couple Hands (Center - Higher) -->
-                <div class="group relative h-64 md:h-96 rounded-2xl overflow-hidden glass-card transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] md:-mt-12 z-20 opacity-0 animate-[fadeInUp_0.8s_ease-out_0.7s_forwards]">
+                <div class="group relative h-96 rounded-2xl overflow-hidden glass-card transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] -mt-12 z-20 opacity-0 animate-[fadeInUp_0.8s_ease-out_0.7s_forwards]">
                     <img src="assets/images/CoupleHand.jpg" alt="Interlocked hands of couple cast in bronze-effect resin on elegant wooden display stand, showing romantic connection and anniversary celebration" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-warm-stone-950 via-warm-stone-950/30 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 right-6">
@@ -132,7 +162,7 @@
                 </div>
 
                 <!-- Card 3: Family Castings -->
-                <div class="group relative h-64 md:h-80 rounded-2xl overflow-hidden glass-card transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] opacity-0 animate-[fadeInUp_0.8s_ease-out_0.9s_forwards]">
+                <div class="group relative h-80 rounded-2xl overflow-hidden glass-card transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] opacity-0 animate-[fadeInUp_0.8s_ease-out_0.9s_forwards]">
                     <img src="assets/images/21_21 Family.jpg" alt="Three generations of family handprints cast together in white plaster frame - grandparent, parent, and child hands showing size progression" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-warm-stone-950 via-warm-stone-950/30 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 right-6">
@@ -164,43 +194,43 @@
 
                 <!-- Process Details -->
                 <div class="w-full md:w-1/2 space-y-6">
-                    <span class="text-terracotta-500 text-sm font-semibold uppercase tracking-widest">How It Works</span>
-                    <h3 class="font-serif text-4xl md:text-5xl text-cream-50 leading-tight">
+                    <span class="text-terracotta-500 text-base font-semibold uppercase tracking-widest">How It Works</span>
+                    <h3 class="font-serif text-4xl md:text-5xl text-black leading-tight">
                         Simple, Safe & Beautiful Process
                     </h3>
                     <div class="w-20 h-[1px] bg-gradient-to-r from-terracotta-500 to-transparent"></div>
-                    <p class="text-warm-stone-400 text-base font-light leading-relaxed">Our signature 3D casting is gentle, hygienic, and safe — even for babies from 1 week old, capturing every detail.</p>
+                    <p class="text-black text-base font-light leading-relaxed">Our signature 3D casting is gentle, hygienic, and safe, even for babies from 1 week old, capturing every detail.</p>
 
                     <!-- Process Steps -->
                     <div class="space-y-4 pt-4">
                         <div class="flex gap-4 items-start glass-card p-4 rounded-t-3xl bg-cream-100/5 transition-colors">
                             <div class="w-8 h-8 rounded-full bg-terracotta-500/20 flex items-center justify-center shrink-0 mt-1">
-                                <span class="text-terracotta-400 font-semibold text-sm">1</span>
+                                <span class="text-black font-semibold text-sm">1</span>
                             </div>
                             <div>
-                                <h4 class="text-cream-50 font-semibold mb-1">Gentle Impression</h4>
-                                <p class="text-warm-stone-400 text-sm">Quick 5-minute impression using warm, food-safe alginate. Feels like play-dough!</p>
+                                <h4 class="text-black font-semibold mb-1">Gentle Impression</h4>
+                                <p class="text-black text-sm">Quick 5-minute impression using warm, food-safe alginate. Feels like play-dough!</p>
                             </div>
                         </div>
 
                         <div class="flex gap-4 items-start glass-card p-4 rounded-t-3xl bg-cream-100/5 transition-colors">
                             <div class="w-8 h-8 rounded-full bg-terracotta-500/20 flex items-center justify-center shrink-0 mt-1">
-                                <span class="text-terracotta-400 font-semibold text-sm">2</span>
+                                <span class="text-black font-semibold text-sm">2</span>
                             </div>
                             <div>
-                                <h4 class="text-cream-50 font-semibold mb-1">Precision Casting</h4>
-                                <p class="text-warm-stone-400 text-sm">Premium resin is poured to preserve every line, curve, and emotion.
+                                <h4 class="text-black font-semibold mb-1">Precision Casting</h4>
+                                <p class="text-black text-sm">Premium resin is poured to preserve every line, curve, and emotion.
 </p>
                             </div>
                         </div>
 
                         <div class="flex gap-4 items-start glass-card p-4 rounded-t-3xl bg-cream-100/5 transition-colors">
                             <div class="w-8 h-8 rounded-full bg-terracotta-500/20 flex items-center justify-center shrink-0 mt-1">
-                                <span class="text-terracotta-400 font-semibold text-sm">3</span>
+                                <span class="text-black font-semibold text-sm">3</span>
                             </div>
                             <div>
-                                <h4 class="text-cream-50 font-semibold mb-1">Artful Finishing</h4>
-                                <p class="text-warm-stone-400 text-sm">Each piece is hand-refined, polished, painted, and mounted with care.
+                                <h4 class="text-black font-semibold mb-1">Artful Finishing</h4>
+                                <p class="text-black text-sm">Each piece is hand-refined, polished, painted, and mounted with care.
                                     Your timeless keepsake is ready in 10-15 days.</p>
                             </div>
                         </div>
@@ -219,13 +249,13 @@
     <!-- Gallery Steps -->
     <section class="pt-20 pb-10 md:pt-32 md:pb-12 bg-warm-stone-900/30 border-y border-cream-100/5 backdrop-blur-sm">
     <div class="max-w-7xl mx-auto px-4 md:px-6"> <div class="text-center mb-10 md:mb-16">
-            <h2 class="font-serif text-4xl md:text-5xl text-cream-50 mb-4">Our Creations</h2>
-            <p class="text-warm-stone-400 font-light max-w-2xl mx-auto">
+            <h2 class="font-serif text-4xl md:text-5xl text-black mb-4">Our Creations</h2>
+            <p class="text-black font-light max-w-2xl mx-auto">
                 Each piece is individually handcrafted with attention to detail, emotion and lasting quality. Browse our collection of Precious moments.
             </p>
         </div>
 
-        <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
 
             <div class="group relative cursor-pointer overflow-hidden rounded-xl" 
                  onclick="openModal('assets/images/Barbie .png', 'Putani', 'Golden Blossom Baby Keepsake')">
@@ -266,7 +296,7 @@
                  onclick="openModal('assets/images/Baby3.jpg', 'Little Baby', 'Hapy two weeks ')">
                 <div class="aspect-[4/5] w-full relative">
                     <img src="assets/images/Baby3.jpg" 
-                         alt="Little Baby 3D hand cast, Shivamogga client" loading="lazy"
+                         alt="Little Krishna 3D hand cast, Shivamogga client" loading="lazy"
                          class="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110">
                      <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
                         <svg class="w-8 h-8 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/></svg>
@@ -306,113 +336,88 @@
     <section class="pt-20 pb-10 md:pt-24 md:pb-12 bg-warm-stone-900/30 border-y border-cream-100/5">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-2">
-                <h2 class="font-serif text-4xl md:text-5xl text-cream-50 mb-2">What Families Say</h2>
-                <p class="text-warm-stone-400 font-light max-w-2xl mx-auto">
+                <h2 class="font-serif text-4xl md:text-5xl text-black mb-4">What Families Say</h2>
+                <p class="text-black font-light max-w-2xl mx-auto">
                     Real stories from parents and couples who've preserved their precious moments with us.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-                <!-- Testimonial 1 -->
-                <div class="glass-card p-6 rounded-2xl hover:bg-cream-100/5 transition-all duration-500">
-                    <div class="flex items-center gap-4 mb-4">
-                        <img src="assets/images/Pallavi.jpeg" alt="Professional headshot of Pallavi, satisfied MagicCasting customer" loading="lazy" class="w-12 h-12 rounded-full object-cover">
-                        <div>
-                            <h4 class="text-cream-50 font-serif text-lg md:text-xl">Pallavi</h4>
-                            <p class="text-warm-stone-400 text-sm">Happy Mother</p>
+            <div id="testimonialSlider" class="relative max-w-4xl mx-auto">
+                <div class="overflow-hidden rounded-2xl">
+                    <div id="testimonialTrack" class="flex transition-transform duration-700 ease-out">
+                        <div class="w-full shrink-0">
+                            <div class="glass-card p-6 md:p-8 rounded-2xl hover:bg-cream-100/5 transition-all duration-500">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <img src="assets/images/Pallavi.jpeg" alt="Professional headshot of Pallavi, satisfied MagicCasting customer" loading="lazy" class="w-12 h-12 rounded-full object-cover">
+                                    <div>
+                                        <h4 class="text-cream-50 font-serif text-lg md:text-xl">Pallavi</h4>
+                                        <p class="text-warm-stone-400 text-sm">Happy Mother</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-1 mb-4">
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-cream-50" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                </div>
+                                <p class="text-warm-stone-300 leading-relaxed">"I booked a baby hand & foot cast for our daughter, and the experience was simply magical. The team was gentle, patient, and comforting, and the final piece captured every tiny detail perfectly. A keepsake we'll treasure forever!"</p>
+                            </div>
+                        </div>
+
+                        <div class="w-full shrink-0">
+                            <div class="glass-card p-6 md:p-8 rounded-2xl hover:bg-cream-100/5 transition-all duration-500">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <img src="assets/images/Shruthi.jpeg" alt="Professional headshot of Shruthi, satisfied MagicCasting customer" loading="lazy" class="w-12 h-12 rounded-full object-cover">
+                                    <div>
+                                        <h4 class="text-cream-50 font-serif text-lg md:text-xl">Shruthi</h4>
+                                        <p class="text-warm-stone-400 text-sm">Anniversary Gift</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-1 mb-4">
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                </div>
+                                <p class="text-warm-stone-300 leading-relaxed">"I wanted something special for our anniversary, and this 3D couple casting exceeded every expectation. The process was smooth and intimate, and the finished piece is a beautiful reminder of this chapter in our lives."</p>
+                            </div>
+                        </div>
+
+                        <div class="w-full shrink-0">
+                            <div class="glass-card p-6 md:p-8 rounded-2xl hover:bg-cream-100/5 transition-all duration-500">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <img src="assets/images/Punith.jpeg" alt="Professional headshot of Punith & Ramya, satisfied MagicCasting customer" loading="lazy" class="w-12 h-12 rounded-full object-cover">
+                                    <div>
+                                        <h4 class="text-cream-50 font-serif text-lg md:text-xl">Punith & Ramya</h4>
+                                        <p class="text-warm-stone-400 text-sm">Happy Parents</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-1 mb-4">
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                </div>
+                                <p class="text-warm-stone-300 leading-relaxed">"As new parents, we were nervous at first, but the team made us feel at ease. The cast of both our baby's hand and ours turned out incredibly detailed and elegant. It's now proudly displayed in our home."</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex gap-1 mb-4">
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                    </div>
-                    <p class="text-warm-stone-300 leading-relaxed">
-                        “I booked a baby hand & foot cast for our daughter, and the experience was simply magical. The team was gentle, patient, and comforting — and the final piece captured every tiny detail perfectly. A keepsake we’ll treasure forever!”
-                    </p>
                 </div>
 
-                <!-- Testimonial 2 -->
-                <div class="glass-card p-6 rounded-2xl hover:bg-cream-100/5 transition-all duration-500">
-                    <div class="flex items-center gap-4 mb-4">
-                        <img src="assets/images/Shruthi.jpeg" alt="Professional headshot of Shruthi, satisfied MagicCasting customer" loading="lazy" class="w-12 h-12 rounded-full object-cover">
-                        <div>
-                            <h4 class="text-cream-50 font-serif text-lg md:text-xl">Shruthi</h4>
-                            <p class="text-warm-stone-400 text-sm">Anniversary Gift</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-1 mb-4">
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                    </div>
-                    <p class="text-warm-stone-300 leading-relaxed">
-                        “I wanted something special for our anniversary, and this 3D couple casting exceeded every expectation. The process was smooth and intimate, and the finished piece is a beautiful reminder of this chapter in our lives.”
-                    </p>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="glass-card p-6 rounded-2xl hover:bg-cream-100/5 transition-all duration-500">
-                    <div class="flex items-center gap-4 mb-4">
-                        <img src="assets/images/Punith.jpeg" alt="Professional headshot of Punith & Ramya, satisfied MagicCasting customer" loading="lazy" class="w-12 h-12 rounded-full object-cover">
-                        <div>
-                            <h4 class="text-cream-50 font-serif text-lg md:text-xl">Punith & Ramya</h4>
-                            <p class="text-warm-stone-400 text-sm">Happy Parents</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-1 mb-4">
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                        <svg class="w-5 h-5 text-terracotta-400" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                        </svg>
-                    </div>
-                    <p class="text-warm-stone-300 leading-relaxed">
-                        “As new parents, we were nervous at first — but the team made us feel at ease. The cast of both our baby’s hand and ours turned out incredibly detailed and elegant. It’s now proudly displayed in our home.”
-                    </p>
+                <div id="testimonialDots" class="flex items-center justify-center gap-3 mt-6">
+                    <button type="button" class="h-2.5 w-2.5 rounded-full bg-terracotta-500 transition-all duration-300" aria-label="Show testimonial 1"></button>
+                    <button type="button" class="h-2.5 w-2.5 rounded-full bg-cream-100/20 transition-all duration-300" aria-label="Show testimonial 2"></button>
+                    <button type="button" class="h-2.5 w-2.5 rounded-full bg-cream-100/20 transition-all duration-300" aria-label="Show testimonial 3"></button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact/Footer Section -->
-    <footer id="contact" class="relative pt-20 md:pt-24 pb-12 overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-b from-warm-stone-950 to-warm-stone-900 pointer-events-none"></div>
-
+    <footer id="contact" class="relative pt-20 md:pt-2 bg-warm-stone-950/80 backdrop-blur-xl border-b border-cream-100/5">
         <div class="max-w-6xl mx-auto px-6 relative z-10">
             <!-- Contact Form Section -->
             <div class="mb-2">
@@ -425,17 +430,17 @@
 
 
                 <!-- Contact Form -->
-                <form id="contactForm" class="max-w-3xl mx-auto glass-card p-8 md:p-10 rounded-2xl">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2">
+                <form id="contactForm" class="max-w-md md:max-w-3xl mx-auto glass-card p-3 md:p-10 rounded-2xl">
+                    <div class="grid grid-cols-2 md:grid-cols-2 gap-2 mb-2">
                         <!-- Full Name -->
                         <div>
-                            <label for="fullName" class="block text-cream-50 font-medium mb-2 text-sm">Full Name *</label>
+                            <label for="fullName" class="block text-cream-50 font-medium mb-1 md:mb-2 text-xs md:text-sm">Full Name *</label>
                             <input 
                                 type="text" 
                                 id="fullName" 
                                 name="fullName" 
                                 required
-                                class="w-full px-4 py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all"
+                                class="w-full px-2.5 md:px-4 py-2 md:py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-sm md:text-base text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all"
                                 placeholder="Arjuna"
                             >
                             <p class="text-terracotta-400 text-xs mt-1 hidden" id="fullNameError">Please enter your full name</p>
@@ -443,13 +448,13 @@
 
                         <!-- Email -->
                         <div>
-                            <label for="email" class="block text-cream-50 font-medium mb-2 text-sm">Email Address *</label>
+                            <label for="email" class="block text-cream-50 font-medium mb-1 md:mb-2 text-xs md:text-sm">Email Address *</label>
                             <input 
                                 type="email" 
                                 id="email" 
                                 name="email" 
                                 required
-                                class="w-full px-4 py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all"
+                                class="w-full px-2.5 md:px-4 py-2 md:py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-sm md:text-base text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all"
                                 placeholder="arjuna@example.com"
                             >
                             <p class="text-terracotta-400 text-xs mt-1 hidden" id="emailError">Please enter a valid email address</p>
@@ -457,13 +462,13 @@
 
                         <!-- Phone Number -->
                         <div>
-                            <label for="phone" class="block text-cream-50 font-medium mb-2 text-sm">Phone Number *</label>
+                            <label for="phone" class="block text-cream-50 font-medium mb-1 md:mb-2 text-xs md:text-sm">Phone Number *</label>
                             <input 
                                 type="tel" 
                                 id="phone" 
                                 name="phone" 
                                 required
-                                class="w-full px-4 py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all"
+                                class="w-full px-2.5 md:px-4 py-2 md:py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-sm md:text-base text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all"
                                 placeholder="8310995337"
                             >
                             <p class="text-terracotta-400 text-xs mt-1 hidden" id="phoneError">Please enter your phone number</p>
@@ -471,12 +476,12 @@
 
                         <!-- Casting Type -->
                         <div>
-                            <label for="castingType" class="block text-cream-50 font-medium mb-2 text-sm">Casting Type *</label>
+                            <label for="castingType" class="block text-cream-50 font-medium mb-1 md:mb-2 text-xs md:text-sm">Casting Type *</label>
                             <select 
                                 id="castingType" 
                                 name="castingType" 
                                 required
-                                class="w-full px-4 py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-cream-50 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all appearance-none cursor-pointer"
+                                class="w-full px-2.5 md:px-4 py-2 md:py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-sm md:text-base text-cream-50 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all appearance-none cursor-pointer"
                                 style="background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27%23E8DCC8%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3e%3cpolyline points=%276 9 12 15 18 9%27%3e%3c/polyline%3e%3c/svg%3e'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1.5em 1.5em;"
                             >
                                 <option value="" disabled selected>Select casting type</option>
@@ -492,22 +497,22 @@
                     </div>
 
                     <!-- Additional Message -->
-                    <div class="mb-6">
-                        <label for="message" class="block text-cream-50 font-medium mb-2 text-sm">Additional Details (Optional)</label>
+                    <div class="mb-4 md:mb-6">
+                        <label for="message" class="block text-cream-50 font-medium mb-1 md:mb-2 text-xs md:text-sm">Additional Details (Optional)</label>
                         <textarea 
                             id="message" 
                             name="message" 
-                            rows="4"
-                            class="w-full px-4 py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all resize-none"
+                            rows="3"
+                            class="w-full px-2.5 md:px-4 py-2 md:py-3 bg-warm-stone-900/50 border border-cream-100/10 rounded-lg text-sm md:text-base text-cream-50 placeholder-warm-stone-500 focus:outline-none focus:ring-2 focus:ring-terracotta-500/50 focus:border-terracotta-500/50 transition-all resize-none"
                             placeholder="Tell us more about your requirements, preferred colors, special occasions, or any specific requests..."
                         ></textarea>
                     </div>
 
                     <!-- Submit Button -->
-                    <div class="flex flex-col items-center gap-4">
+                    <div class="flex flex-col items-center gap-2 md:gap-4">
                         <button 
                             type="submit" 
-                            class="group w-full md:w-auto px-10 py-4 bg-terracotta-500 hover:bg-terracotta-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-terracotta-500/30 flex items-center justify-center gap-3"
+                            class="group w-auto px-5 md:px-10 py-2.5 md:py-4 bg-terracotta-500 hover:bg-terracotta-600 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-terracotta-500/30 flex items-center justify-center gap-2 md:gap-3 text-sm md:text-base"
                         >
                             <span>Start My Casting Journey</span>
                             <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -538,7 +543,7 @@
                             </svg>
                             <div>
                                 <h4 class="text-red-400 font-semibold mb-1">Oops! Something went wrong</h4>
-                                <p class="text-red-300/80 text-sm">Please check your information and try again. If the problem persists, call us at +91 83109 95337.</p>
+                                <p class="text-red-300/80 text-sm">Please check your information and try again. If the problem persists, call us at +91 8310995337.</p>
                             </div>
                         </div>
                     </div>
@@ -546,7 +551,7 @@
             </div>
             <div class="text-center mb-2 px-4">
                 <p class="font-serif text-lg md:text-xl text-terracotta-500 tracking-widest uppercase font-semibold border-y border-terracotta-500/20 py-6 inline-block">
-                    Proudly Serving Shivamogga, Bhadravati & Surrounding Areas
+                    Serving Shivamogga, Bhadravati & Surrounding Areas
                 </p>
             </div>
 
@@ -561,19 +566,13 @@
 
                 <div class="flex flex-col md:flex-row gap-6 md:gap-6 text-warm-stone-400 font-light text-sm md:text-base">
                     
-
-                   <a href="https://www.google.com/maps/search/Magic+Casting+Shivamogga"
-   target="_blank" 
-   rel="noopener noreferrer" 
-   class="flex items-center gap-3 glass-card px-6 py-3 rounded-full bg-cream-100/5 hover:bg-terracotta-500/10 hover:text-cream-50 transition-all duration-300 group">
-    
-    <svg class="w-4 h-4 text-terracotta-500 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-    </svg>
-    
-    <span class="font-medium">Shivamogga, Karnataka</span>
-</a>
+                    <div class="flex items-center gap-3 glass-card px-6 py-3 rounded-full bg-cream-100/5 transition-colors">
+                        <svg class="w-4 h-4 text-terracotta-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                        <span>Shivamogga, Karnataka</span>
+                    </div>
                     
                     <a href="tel:+918310995337" class="flex items-center gap-3 glass-card px-6 py-3 rounded-full bg-cream-100/5 hover:text-cream-50 transition-colors">
                         <svg class="w-4 h-4 text-terracotta-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -606,7 +605,7 @@
                             </svg>
                         </a>
 
-                        <a href="https://wa.me/918310995337?text=Hi,%20I%20am%20interested%20in%20a%203D%20casting,%20can%20you%20please%20share%20me%20more%20details." target="_blank" rel="noopener noreferrer" class="group/icon p-3 rounded-full glass-card hover:bg-terracotta-500/10 hover:scale-110 transition-all duration-300" aria-label="WhatsApp">
+                        <a href="https://wa.me/918310995337" target="_blank" rel="noopener noreferrer" class="group/icon p-3 rounded-full glass-card hover:bg-terracotta-500/10 hover:scale-110 transition-all duration-300" aria-label="WhatsApp">
                             <svg class="w-6 h-6 text-warm-stone-400 group-hover/icon:text-[#25D366] transition-colors" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
                             </svg>
@@ -683,7 +682,101 @@
             }, 8000);
         });
       });
-    </script>
+</script>
+
+<script>
+    const heroMobileSlider = document.getElementById('heroMobileSlider');
+    const heroMobileTrack = document.getElementById('heroMobileTrack');
+    const heroMobileDots = document.querySelectorAll('#heroMobileDots button');
+
+    if (heroMobileSlider && heroMobileTrack && heroMobileDots.length) {
+        let heroMobileIndex = 0;
+        let heroMobileInterval;
+
+        function renderHeroMobileSlide(index) {
+            heroMobileTrack.style.transform = `translateX(-${index * 100}%)`;
+            heroMobileDots.forEach((dot, dotIndex) => {
+                dot.classList.toggle('bg-terracotta-500', dotIndex === index);
+                dot.classList.toggle('bg-cream-100/20', dotIndex !== index);
+                dot.classList.toggle('w-8', dotIndex === index);
+                dot.classList.toggle('w-2.5', dotIndex !== index);
+            });
+        }
+
+        function startHeroMobileAutoplay() {
+            heroMobileInterval = setInterval(() => {
+                heroMobileIndex = (heroMobileIndex + 1) % heroMobileDots.length;
+                renderHeroMobileSlide(heroMobileIndex);
+            }, 3500);
+        }
+
+        function stopHeroMobileAutoplay() {
+            clearInterval(heroMobileInterval);
+        }
+
+        heroMobileDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                heroMobileIndex = index;
+                renderHeroMobileSlide(heroMobileIndex);
+                stopHeroMobileAutoplay();
+                startHeroMobileAutoplay();
+            });
+        });
+
+        heroMobileSlider.addEventListener('mouseenter', stopHeroMobileAutoplay);
+        heroMobileSlider.addEventListener('mouseleave', startHeroMobileAutoplay);
+        heroMobileSlider.addEventListener('touchstart', stopHeroMobileAutoplay, { passive: true });
+        heroMobileSlider.addEventListener('touchend', startHeroMobileAutoplay, { passive: true });
+
+        renderHeroMobileSlide(heroMobileIndex);
+        startHeroMobileAutoplay();
+    }
+
+    const testimonialSlider = document.getElementById('testimonialSlider');
+    const testimonialTrack = document.getElementById('testimonialTrack');
+    const testimonialDots = document.querySelectorAll('#testimonialDots button');
+
+    if (testimonialSlider && testimonialTrack && testimonialDots.length) {
+        let testimonialIndex = 0;
+        let testimonialInterval;
+
+        function renderTestimonialSlide(index) {
+            testimonialTrack.style.transform = `translateX(-${index * 100}%)`;
+            testimonialDots.forEach((dot, dotIndex) => {
+                dot.classList.toggle('bg-terracotta-500', dotIndex === index);
+                dot.classList.toggle('bg-cream-100/20', dotIndex !== index);
+                dot.classList.toggle('w-8', dotIndex === index);
+                dot.classList.toggle('w-2.5', dotIndex !== index);
+            });
+        }
+
+        function startTestimonialAutoplay() {
+            testimonialInterval = setInterval(() => {
+                testimonialIndex = (testimonialIndex + 1) % testimonialDots.length;
+                renderTestimonialSlide(testimonialIndex);
+            }, 4000);
+        }
+
+        function stopTestimonialAutoplay() {
+            clearInterval(testimonialInterval);
+        }
+
+        testimonialDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                testimonialIndex = index;
+                renderTestimonialSlide(testimonialIndex);
+                stopTestimonialAutoplay();
+                startTestimonialAutoplay();
+            });
+        });
+
+        testimonialSlider.addEventListener('mouseenter', stopTestimonialAutoplay);
+        testimonialSlider.addEventListener('mouseleave', startTestimonialAutoplay);
+
+        renderTestimonialSlide(testimonialIndex);
+        startTestimonialAutoplay();
+    }
+</script>
     <div id="lightbox" class="fixed inset-0 z-[60] hidden bg-warm-stone-950/95 backdrop-blur-md flex items-center justify-center p-4 opacity-0 transition-opacity duration-300" onclick="closeModal()">
     <button class="absolute top-6 right-6 text-cream-100 hover:text-terracotta-500 transition-colors">
         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -732,16 +825,6 @@
         }, 300);
     }
 </script>
-<a href="https://wa.me/918310995337?text=Hi,%20I%20am%20interested%20in%20a%203D%20casting,%20can%20you%20please%20share%20me%20more%20details." 
-   target="_blank" 
-   rel="noopener noreferrer" 
-   aria-label="Chat on WhatsApp"
-   class="fixed bottom-6 right-6 z-[100] glass-card p-4 rounded-full shadow-2xl transition-all duration-300 flex items-center justify-center group border border-cream-100/10 hover:scale-110 hover:bg-[#25D366]/20 hover:border-[#25D366]/50 hover:shadow-[0_0_20px_rgba(37,211,102,0.4)]">
-    
-    <svg class="w-8 h-8 text-cream-100 group-hover:text-[#25D366] transition-colors duration-300 drop-shadow-md" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-    </svg>
-</a>
     </body>
 </html>
 
