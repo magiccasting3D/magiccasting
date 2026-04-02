@@ -1,82 +1,70 @@
-# HTML
+# Magic Casting Website
 
-A modern HTML project utilizing Tailwind CSS for building responsive web applications with minimal setup.
+Production-ready static website for a local 3D hand and foot casting business in Shivamogga.
 
-## 🚀 Features
+## Stack
 
-- **HTML5** - Modern HTML structure with best practices
-- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
-- **Custom Components** - Pre-built component classes for buttons and containers
-- **NPM Scripts** - Easy-to-use commands for development and building
-- **Responsive Design** - Mobile-first approach for all screen sizes
+- HTML5
+- Tailwind CSS (compiled to `css/main.css`)
+- Minimal vanilla JavaScript
 
-## 📋 Prerequisites
+## Setup
 
-- Node.js (v12.x or higher)
-- npm or yarn
-
-## 🛠️ Installation
-
-1. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
-2. Start the development server:
+## Development
+
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-## 📁 Project Structure
+Starts `live-server` for local preview.
 
-```
-html_app/
-├── css/
-│   ├── tailwind.css   # Tailwind source file with custom utilities
-│   └── main.css       # Compiled CSS (generated)
-├── pages/             # HTML pages
-├── index.html         # Main entry point
-├── package.json       # Project dependencies and scripts
-└── tailwind.config.js # Tailwind CSS configuration
+## Tailwind Workflow
+
+Watch mode:
+
+```bash
+npm run watch
 ```
 
-## 🎨 Styling
+Production CSS build:
 
-This project uses Tailwind CSS for styling. Custom utility classes include:
+```bash
+npm run build
+```
 
-
-## 🧩 Customization
-
-To customize the Tailwind configuration, edit the `tailwind.config.js` file:
-
-
-## 📦 Build for Production
-
-Build the CSS for production:
+Alias (same output):
 
 ```bash
 npm run build:css
-# or
-yarn build:css
 ```
 
-## 📱 Responsive Design
+## Project Structure
 
-The app is built with responsive design using Tailwind CSS breakpoints:
+```text
+.
+|- index.html
+|- css/
+|  |- src/input.css
+|  `- main.css
+|- public/
+|  |- manifest.json
+|  |- icon-192.png
+|  `- icon-512.png
+|- assets/images/
+|- tailwind.config.js
+`- package.json
+```
 
-- `sm`: 640px and up
-- `md`: 768px and up
-- `lg`: 1024px and up
-- `xl`: 1280px and up
-- `2xl`: 1536px and up
+## Deployment
 
-## 🙏 Acknowledgments
+This project is suitable for static hosting (GitHub Pages / custom domain).
 
-- Built with [Rocket.new](https://rocket.new)
-- Powered by HTML and Tailwind CSS
+Recommended deploy checklist:
 
-Built with ❤️ on Rocket.new
+1. Run `npm run build`.
+2. Commit updated `css/main.css`.
+3. Push to your hosting branch.

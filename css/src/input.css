@@ -19,3 +19,13 @@
     font-family: 'DM Sans', sans-serif;
   }
 }
+
+@layer utilities {
+  .bg-paper-texture {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.24) 0, transparent 45%),
+      radial-gradient(circle at 80% 80%, rgba(0, 0, 0, 0.04) 0, transparent 40%),
+      linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.03));
+    background-size: 240px 240px, 320px 320px, 100% 100%;
+  }
+}
