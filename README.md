@@ -50,11 +50,10 @@ npm run build:css
 |- css/
 |  |- src/input.css
 |  `- main.css
-|- public/
-|  |- manifest.json
-|  |- icon-192.png
-|  `- icon-512.png
 |- assets/images/
+|  |- site.webmanifest
+|  |- web-app-manifest-192x192.png
+|  `- web-app-manifest-512x512.png
 |- tailwind.config.js
 `- package.json
 ```
